@@ -18,7 +18,7 @@ pyaml-env~=1.1.0
 pyperclip==1.8.2
 pytz==2020.5
 requests~=2.25.1
-selenium==3.141.0
+selenium==4.15.1
 slackclient==2.9.3
 tabulate==0.8.9
 tabula-py==2.2.0
