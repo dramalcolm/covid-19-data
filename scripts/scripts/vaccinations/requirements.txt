@@ -1,8 +1,8 @@
 beautifulsoup4==4.9.3
 chromedriver-binary==87.0.4280.88.0
-dateparser==1.0.0
+dateparser==1.1.6
 gsheets==0.5.1
-joblib==1.0.1
+joblib==1.1.1
 lxml>=4.6.3
 odfpy~=1.4.1
 openpyxl==3.0.7
@@ -12,7 +12,7 @@ pyaml-env~=1.1.0
 PyPDF2==1.26.0
 pyperclip==1.8.2
 pytz==2020.5
-requests==2.25.1
+requests==2.32.2
 selenium==3.141.0
 tabula-py==2.2.0
 tweepy~=3.10.0
@@ -20,3 +20,7 @@ uk-covid19~=1.2.0
 xlrd==2.0.1
 facebook-scraper==0.2.45
 tabulate==0.8.9
+idna>=3.7 # not directly required, pinned by Snyk to avoid a vulnerability
+numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
+pillow>=10.3.0 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
